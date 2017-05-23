@@ -15,7 +15,8 @@ class Window {
       show: false,
       title: 'Neutron',
       width: 450,
-      height: 372
+      height: 372,
+      icon: path.join(__dirname, 'assets/icons/png/64x64.png')
     }
 
     if (process.platform === 'darwin'){

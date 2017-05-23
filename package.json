@@ -2,10 +2,15 @@
   "name": "neutron",
   "description": "A desktop front-end for Spansh's neutron router.",
   "author": "Jesse Bryan <jesse@winneon.moe>",
-  "version": "0.2.8",
+  "version": "0.2.8-NXE232336",
   "xo": {
     "space": true,
     "semicolon": false
+  },
+  "build": {
+    "win": {
+      "icon": "app/assets/icons/win/neutron2.ico"
+    }
   },
   "dependencies": {
     "react": "15.5.4",
